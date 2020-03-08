@@ -1,0 +1,26 @@
+@import "./normalize.css";
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root{/* 根元素中定义变量 */
+  --color-text:#666;
+  --large-size:1.5
+}
+
+::after{
+  font-size: var(--large-size);/* 使用变量 */
+}
+h2{
+  margin: 0;
+}
+
+a{
+ text-decoration: none;
+ color: black; 
+}
+body{
+  /* padding-bottom: 60px; */
+}
